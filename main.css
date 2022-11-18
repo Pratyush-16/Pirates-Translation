@@ -1,0 +1,89 @@
+
+:root{
+    --primary-color: #a78bfa;
+    --dark-gray: rgb(156 163 175);
+    --light-gray:#e2e8f0;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(168 162 158);
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-size: 1.2em;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  section {
+    text-align: center;
+  }
+
+.nav {
+    background-color: #FCD34D;
+    padding: 0.8rem;
+    text-align: center;
+}
+.section{
+    padding: 1rem;
+}
+textarea {
+
+    width: 50%;
+    min-width: 500px;
+    margin: 30px auto;
+    height: 20vh;
+    margin: 2rem;
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-family: cursive;
+  }
+
+
+button {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    background-color: olive;
+    border: none;
+    margin: auto;
+    padding: 1rem 2rem;
+    font-size: large;
+  }
+
+#btn-translate{
+    text-align: center;
+}
+
+#output {
+    display: inline-block;
+    width: 50%;
+    min-width: 500px;
+    height: 20vh;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: cursive;
+  }
+
+footer {
+    background-color: olive;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+  }
+  #footer-div {
+    text-align: center;
+    box-sizing: border-box;
+    width: 400px;
+  }
+
+  .footer-heading {
+    padding: 10px 0;
+  }
