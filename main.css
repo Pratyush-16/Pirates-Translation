@@ -1,35 +1,50 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 :root{
-    --primary-color: #a78bfa;
-    --dark-gray: rgb(156 163 175);
-    --light-gray:#e2e8f0;
+    --primary-color: 
+    --text-color: 
 }
 
-body {
+body{
+    
     margin: 0;
-    background-color: rgb(168 162 158);
-    font-family: "Edu VIC WA NT Beginner", cursive;
+    padding: 0;
+    
+}
+
+
+body {
+    
+    background-color: antiquewhite;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 1.2em;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  section {
-    text-align: center;
-  }
+    
+    
+}
+  
 
-.nav {
-    background-color: #FCD34D;
-    padding: 0.8rem;
+  nav{
     text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    width: 100%;
+    font-size: larger;
 }
-.section{
-    padding: 1rem;
-}
+
+div{
+  /* min-width: 50%; */
+  color: black;
+  font-size: larger;
+  font-weight: bolder;
+  text-align: center;
+  display: block;
+  margin: 3rem;
+ }
+
 textarea {
 
     width: 50%;
@@ -39,24 +54,31 @@ textarea {
     margin: 2rem;
     padding: 2rem;
     font-size: 1.5rem;
-    font-family: cursive;
   }
-
-
-button {
-    display: flex;
-    flex-direction: column;
-    margin: 20px auto;
-    background-color: olive;
-    border: none;
-    margin: auto;
-    padding: 1rem 2rem;
-    font-size: large;
-  }
-
-#btn-translate{
-    text-align: center;
+  #textInput{
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    font-size: larger;
+    width: 100%;
+    max-width: 200px;
 }
+
+
+#button {
+  display: block;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin: auto;
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  }
+
+
 
 #output {
     display: inline-block;
@@ -71,19 +93,16 @@ button {
     font-family: cursive;
   }
 
-footer {
-    background-color: olive;
+  footer{
+    
+    background-color: gray;
+    padding: 0.5rem;
     text-align: center;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-  }
-  #footer-div {
-    text-align: center;
-    box-sizing: border-box;
-    width: 400px;
-  }
+    color: white;
+    width: 100%;
+    bottom: 0px;
+    font-size: large;
+}
 
-  .footer-heading {
-    padding: 10px 0;
-  }
+
+  
